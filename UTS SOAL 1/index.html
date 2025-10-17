@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO meta tags -->
+  <title>Form Pendaftaran Pekan Budaya 2025</title>
+  <meta name="description" content="Isi formulir pendaftaran untuk mengikuti acara Pekan Budaya 2025. Daftar sekarang dan jadilah bagian dari perayaan budaya terbesar tahun ini!" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.contohsite.com/pendaftaran-pekan-budaya-2025" />
+
+  <!-- Open Graph (SEO untuk media sosial) -->
+  <meta property="og:title" content="Form Pendaftaran Pekan Budaya 2025" />
+  <meta property="og:description" content="Daftar dan ikuti Pekan Budaya 2025. Rayakan keberagaman budaya Indonesia bersama kami!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.contohsite.com/pendaftaran-pekan-budaya-2025" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1571168537671-69ed2bdaa6ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" />
+
+  <!-- Styling sederhana -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+      color: #333;
+    }
+    header, main, footer {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #b22222;
+    }
+    .header-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, textarea {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #b22222;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    input[type="submit"]:hover {
+      background-color: #8b0000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- Gambar header -->
+    <img 
+      src="images/1.jpg" 
+      alt="Sekelompok orang mengenakan pakaian warna-warni di acara budaya" 
+      class="header-image"
+      loading="lazy" />
+
+    <h1>Pendaftaran Pekan Budaya 2025</h1>
+    <p>Isi formulir di bawah ini untuk mengikuti acara <strong>Pekan Budaya 2025</strong>.  
+       Kami menantikan partisipasi Anda dalam perayaan budaya Indonesia!</p>
+  </header>
+
+  <main>
+    <form action="proses_pendaftaran.php" method="post" aria-label="Form Pendaftaran Pekan Budaya 2025">
+      <label for="nama">Nama Lengkap:</label>
+      <input type="text" id="nama" name="nama" required placeholder="Masukkan nama lengkap Anda" />
+
+      <label for="email">Alamat Email:</label>
+      <input type="email" id="email" name="email" required placeholder="contoh@email.com" />
+
+      <label for="password">Kata Sandi:</label>
+      <input type="password" id="password" name="password" required placeholder="Minimal 8 karakter" />
+
+      <fieldset>
+        <legend>Jenis Kelamin:</legend>
+        <label>
+          <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki" required /> Laki-laki
+        </label>
+        <label>
+          <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" /> Perempuan
+        </label>
+      </fieldset>
+
+      <label for="pesan">Pesan atau Alasan Mengikuti:</label>
+      <textarea id="pesan" name="pesan" rows="4" cols="50" placeholder="Tuliskan pesan atau motivasi Anda..." required></textarea>
+
+      <input type="submit" value="Kirim Pendaftaran" />
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Panitia Pekan Budaya Indonesia. Semua hak cipta dilindungi.</p>
+  </footer>
+
+</body>
+</html>
